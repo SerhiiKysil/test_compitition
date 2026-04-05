@@ -14,7 +14,7 @@ const Map = dynamic(() => import("@/components/ui/Map"), {
 
 export default function AdminDashboard() {
   return (
-    <div className="flex flex-col gap-6 h-[calc(100vh-6rem)]">
+    <div className="flex flex-col gap-6 h-[100vh]">
       <div>
         <h1 className="text-3xl font-bold text-slate-900">Панель Диспетчера</h1>
         <p className="text-slate-500">Моніторинг складів, транспорту та критичних запитів</p>

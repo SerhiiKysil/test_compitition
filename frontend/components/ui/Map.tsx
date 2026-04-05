@@ -401,7 +401,7 @@ export default function MapView() {
       </div>
 
       {/* ── Legend ─────────────────────────────────────────────── */}
-      <div style={{ ...panel, position: 'absolute', top: 12, left: 12, zIndex: 1000, padding: '10px 14px', fontSize: 12 }}>
+      <div style={{ ...panel, position: 'absolute', top: 8, left: 8, zIndex: 1000, padding: '10px 14px', fontSize: 12 }}>
         <div style={{ fontWeight: 700, fontSize: 10, textTransform: 'uppercase', letterSpacing: '.05em', color: '#94a3b8', marginBottom: 6 }}>Легенда</div>
         {Object.entries(ENTITY_CFG).map(([k, v]) => (
           <div key={k} style={{ display: 'flex', alignItems: 'center', gap: 6, marginBottom: 3 }}>
