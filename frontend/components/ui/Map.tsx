@@ -158,10 +158,10 @@ export default function MapView() {
     consumer:       mkIcon('🏢', '#2563eb'),
     warehouse:      mkIcon('📦', '#16a34a'),
     serviceStation: mkIcon('⛽', '#d97706'),
-    CAR:            mkIcon('🚛', '#ef4444', 42),
-    TRAIN:          mkIcon('🚂', '#8b5cf6', 42),
-    SHIP:           mkIcon('🚢', '#06b6d4', 42),
-    AIRPLANE:       mkIcon('✈️', '#ec4899', 42),
+    CAR:            mkIcon('🚛', '#ef4444', 24),
+    TRAIN:          mkIcon('🚂', '#8b5cf6', 24),
+    SHIP:           mkIcon('🚢', '#06b6d4', 24),
+    AIRPLANE:       mkIcon('✈️', '#ec4899', 24),
   }), []);
 
   // ── Load all data ─────────────────────────────────────────────────
